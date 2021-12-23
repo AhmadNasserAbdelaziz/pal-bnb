@@ -1,0 +1,144 @@
+
+.App
+{
+  background-color: #3835c1 ;
+  scroll-behavior: smooth;  
+  overflow: hidden;
+  height: auto;
+}
+.navbar{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    background-color: #ffff;
+}
+
+.logo {
+  width: 500px;
+  height: 70px;
+}
+
+.grid {
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+
+}
+
+
+
+.decs{
+ 
+ 
+  font-size:16px ;
+  color: #ffffff;
+   font-family: 'Raleway',sans-serif; 
+   font-size: 15px;
+   font-weight: 800;
+   width: 500px;
+
+}
+
+.text{  
+
+  margin-left: 100px;
+  font-family: Poppins;
+  
+  
+}
+
+
+.cloud-text {
+	font-family: 'Coiny', cursive;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+	background-size: auto;
+	background-attachment: unset;
+	background-position: 0%;
+	font-size: 30px;
+	animation: clouds-moving infinite 220s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	text-align: left;
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	} 
+}
+
+.cards {
+  margin-left:100px ;
+}
+.card {
+  height: auto;
+  width: 176px;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  border-radius: 25px;
+
+}
+
+.cardpic{
+   width: 176px;
+   height: 235px;
+}
+
+.rate{
+  margin-left: 3px;
+align-items: center;
+display: flex;
+
+}
+.star{
+  width: 14px;
+  height: 14px;
+  float: left;
+  margin-right: 5px;
+}
+
+.rating{
+  float: left;
+  margin-left: 3px;
+
+}
+
+.carddesc {
+text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  align-items: center;
+}
+
+
+.soldout{
+  position: inherit;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
